@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto Mono', monospace;;
+}
+
+#head{
+    margin-top: 5%;
+    text-align: center;
+    color: gray;
+    
+}
+
+
+#contact-list-container{
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    list-style-type: none; 
+}
+
+.details{ 
+    display: flex;
+    background-color: #257BD1;
+    color: aliceblue;
+    width: 450px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    letter-spacing: 0.5px;
+    flex-direction: row;
+}
+
+.delete-contact{
+    display: inline-flex;
+}
+
+.fill-up{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.details:hover{
+    background-color: black;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+
+  }
+  input:focus {
+    border-color: gray
+  }
+
+button{
+    font-weight: bold;
+    width: 70px;
+    background-color: gray;
+    border: none;
+    border-radius: 5%;
+    font-family: sans-serif;
+    color: white;
+
+}
+
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
